@@ -5,15 +5,15 @@ interface Props {}
 
 const Description: React.FC<Props> = () => {
   return (
-    <div className="flex flex-col justify-center h-[70vh] md:flex-row">
+    <div className="flex flex-col justify-center h-[90vh] md:flex-row">
 
-      <div className="flex flex-col justify-center items-center mt-20">
+      <div className="flex flex-col justify-center items-center ">
 
         <div className="flex justify-center flex-col items-center">
           <Image src="/logoTech.svg" alt="Logo" width={120} height={120} />
-          <h2 className="text-white font-bold text-2xl md:text-5xl mt-3">Inovation, Security and Quality!</h2>
+          <h2 className="text-white font-bold text-2xl md:text-5xl mt-3 text-center">Inovation, Security and Quality!</h2>
         </div>
-        <span className="text-white md:w-[50vw] items-center mt-4">
+        <span className="text-white md:w-[50vw] items-center text-center mt-4">
           We place the client at the center of our operations. We understand
           that each organization has unique needs, and as such, we develop
           customized approaches and tailored strategies to meet the individual
@@ -21,7 +21,7 @@ const Description: React.FC<Props> = () => {
         </span>
         
 
-        <div className="flex justify-center mt-4">
+        <div className="flex justify-center mt-5">
           <button className="text-white w-80 p-1 bg-[#0085FF] rounded">FREE CONSULT</button>
         </div>
 
