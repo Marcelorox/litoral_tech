@@ -20,7 +20,6 @@ const AboutUs: React.FC<Props> = () => {
               Manage your company in the palm of your hand!
             </h2>
           </div>
-
           <span className="text-white md:w-[40vw] text-center md:text-start mt-4">
             Our main goal is to achieve tangible and measurable results. We work
             closely with our clients to establish key performance indicators and
