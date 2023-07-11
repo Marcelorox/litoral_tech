@@ -13,8 +13,8 @@ const Header: React.FC<Props> = () => {
         <Image src='/logoTech.svg' alt="Logo" width={200} height={200} />
       </div>
       <div className='flex px-4 bg-[#0085FF] items-center rounded gap-2 cursor-pointer justify-center h-10 mt-5 md:mt-0'>
-        <span><FaUser/></span>
-        <span className='font-bold'>Área do cliente</span>
+        <span><FaUser color='white'/></span>
+        <span className='font-bold text-white'>Área do cliente</span>
       </div>
     </header>
   );
