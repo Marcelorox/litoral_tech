@@ -8,7 +8,7 @@ interface Props {
 
 const Header: React.FC<Props> = () => {
   return (
-    <header className='flex flex-col p-5 bg-[#101010] md:flex-row md:justify-between'>
+    <header className='flex flex-col p-5 md:flex-row md:justify-between border-b-[1px] border-stone-800'>
       <div className='flex justify-center md:block'>
         <Image src='/logoTech.svg' alt="Logo" width={200} height={200} />
       </div>
