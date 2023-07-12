@@ -11,11 +11,11 @@ const AboutUs: React.FC<Props> = () => {
     </h1>
       <div className="flex flex-col justify-center bg-[#0085FF]  md:h-[50vh] h-[90vh] md:flex-row">
         
-        <div className="flex flex-col justify-center items-center ">
+        <div className="flex flex-col items-center justify-center ">
         <h1 className="text-white font-bold text-xl md:text-5xl flex md:hidden justify-center bg-[#0085FF] p-10 text-center">
           ABOUT US
     </h1>
-          <div className="flex justify-center flex-col items-center">
+          <div className="flex flex-col items-center justify-center">
             <h2 className="text-white md:w-[40vw] text-center md:text-start font-bold text-lg md:text-3xl mt-3">
               Manage your company in the palm of your hand!
             </h2>
@@ -26,14 +26,14 @@ const AboutUs: React.FC<Props> = () => {
             track progress over time, ensuring that the implemented strategies
             generate positive and impactful outcomes.
           </span>
-          <div className="flex justify-center mt-5 w-full">
-            <button className="text-white md:w-full p-1 w-80  bg-[#1E1E1E] rounded">
+          <div className="flex justify-center w-full mt-5">
+            <button className="text-white md:w-full p-1 w-80  bg-[#1E1E1E] rounded  hover:bg-gray-700 transition hover:scale-110">
               LEARN MORE
             </button>
           </div>
         </div>
         <Image
-          className="ml-9 hidden md:flex"
+          className="hidden ml-9 md:flex"
           src="/graphic.svg"
           alt="Logo"
           width={400}

@@ -12,9 +12,9 @@ const Header: React.FC<Props> = () => {
       <div className='flex justify-center md:block'>
         <Image src='/logoTech.svg' alt="Logo" width={200} height={200} />
       </div>
-      <div className='flex px-4 bg-[#0085FF] items-center rounded gap-2 cursor-pointer justify-center h-10 mt-5 md:mt-0'>
+      <div className='flex px-4 bg-[#0085FF] items-center rounded gap-2 cursor-pointer justify-center h-10 mt-5 md:mt-0 hover:bg-blue-500 transition hover:scale-110'>
         <span><FaUser color='white'/></span>
-        <span className='font-bold text-white'>Área do cliente</span>
+        <span className='font-bold text-white'>Costumer Area</span>
       </div>
     </header>
   );
