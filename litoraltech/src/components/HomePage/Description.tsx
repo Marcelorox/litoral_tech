@@ -6,7 +6,7 @@ interface Props {}
 const Description: React.FC<Props> = () => {
   return (
     <div className="flex flex-col justify-center h-[80vh] md:h-[100vh] md:flex-row">
-      <div className="flex flex-col md:mt-[10rem] md:justify-normal">
+      <div className="flex flex-col md:mt-[10rem] lg:mt-[15rem] md:justify-normal">
         <div className="flex flex-col items-center justify-center">
           <Image src="/logoTech.svg" alt="Logo" width={120} height={120} />
           <h2 className="mt-3 text-2xl font-bold text-center text-white md:text-5xl">Inovation, Security and Quality!</h2>
