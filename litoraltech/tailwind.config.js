@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'custombp': {'raw': '(min-height: 1920px),(min-width:1080px)'}
+    }
     },
   },
   plugins: [],

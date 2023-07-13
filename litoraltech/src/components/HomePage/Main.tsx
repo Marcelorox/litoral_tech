@@ -11,7 +11,7 @@ const Main = () => {
     <main className="flex flex-col bg-[url('/paisagem.gif')] bg-contain">
         <Header/>
         <Description/>
-        <div className="absolute h-[15rem] top-[80vh] md:top-[83vh] w-full md:h-60 bg-[url('/Vector.svg')] bg-cover lg:top-[85vh]"></div>
+        <div className="absolute h-[15rem] top-[80vh] w-full md:h-[40vh] bg-[url('/Vector.svg')] bg-cover lg:top-[70vh]"></div>
         <AboutUs/>
     </main>
     
